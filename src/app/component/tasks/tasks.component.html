@@ -1,0 +1,32 @@
+<div class="task">
+    
+    <h1 style="text-align: center;background-color: paleturquoise; font-weight: 500;">Hi Iam From Task-Item.html: </h1>
+    <app-task-item *ngFor="let task of tasks" style="text-align: center;">
+        {{ task.text }}
+    </app-task-item>
+
+
+    <h1 style="text-align: center; background-color: paleturquoise;font-weight: 500"> ID: </h1>
+
+    <p *ngFor="let task of tasks" style="text-align: center;">
+        {{ task.id }}
+    </p>
+
+    <h1 style="text-align: center;background-color: paleturquoise;font-weight: 500"> AGENDA: </h1>
+    <p *ngFor="let task of tasks" style="text-align: center;">
+        {{task.text}}
+    </p>
+
+    <h1 style="text-align: center; background-color: paleturquoise;font-weight: 500"> Day: </h1>
+    <p *ngFor="let obj of tasks" style="text-align: center;">
+        {{obj.day}}
+    </p>
+
+    <h1 style="text-align: center;background-color: paleturquoise;font-weight: 500"> Reminder: </h1>
+    <p *ngFor="let obj of tasks" style="text-align: center;">
+        {{obj.reminder}}
+    </p>
+
+</div>
+
+

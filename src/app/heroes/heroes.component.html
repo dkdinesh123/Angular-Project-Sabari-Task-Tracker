@@ -1,0 +1,36 @@
+<!-- <p>heroes works!</p> -->
+
+<h4>My Hero Name is:{{heroes}}</h4>
+
+<h2>Heroes Details:</h2>
+<div>
+    <span>
+        Hero Name:
+    </span>
+    {{hero.name | uppercase}}<br>
+    Hero Id:{{hero.id}}
+</div>
+
+<div>
+    <span>
+        Hero Name:
+    </span>
+    {{hero1.name | uppercase}} <br>
+    Hero Id:{{hero1.id}}
+</div>
+
+
+<div>
+    <label for= "name">Hero name:</label>
+    <input id="name" [(ngModel)]="hero.name" placeholder="Enter Your name">
+</div>
+
+<!-- //Calling array of objects -->
+
+<h2>List Of My-Heroes List</h2>
+<ul class="superheroes">
+    <li *ngFor="let herosuper of superheroes">
+        <span class="badge">{{herosuper.id}} -
+        </span>{{herosuper.name}}
+    </li>
+</ul>

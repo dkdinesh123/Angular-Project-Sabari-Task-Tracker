@@ -1,0 +1,38 @@
+h1
+{
+    background-color: powderblue;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+table, th, td {
+    border:1px solid black;
+  }
+p
+{
+    color:blue;
+    font-size:xx-large;
+    font-weight: bold;
+    
+} 
+
+h2
+{
+    background-color: yellowgreen;
+    font-size: large;
+    font-weight: bold;
+}
+body
+{
+    
+    background-image: url(https://imgd.aeplcdn.com/1200x900/n/cw/ec/47028/duster-exterior-right-front-three-quarter-4.jpeg?q=85);
+    position: relative;
+    
+}
+h3
+{
+    color: orange;
+    font-size:xx-large;
+    font-weight:bold;
+}
